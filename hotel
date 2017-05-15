@@ -67,16 +67,16 @@
 
 			document.getElementById('msg').innerHTML+="Visitor-name :"+name+
 																	"</br>"+
-													  "Check In date :"+date+
+										 "Check In date :"+date+
 													  				"</br>"+
-													  "No of Days for Booked :"+day+
+										"No of Days for Booked :"+day+
 													  				"</br>"+
 													  				"Room Type:"+rname+
 													  
 													  				"</br>"+
-													  "Advance Amout :"+Advance+
+										  "Advance Amout :"+Advance+
 													  				"</br>"+
-													  "Remaining Amount to be Paid :"+balance
+										  "Remaining Amount to be Paid :"+balance
 													  ;
 			}
 	</script>
