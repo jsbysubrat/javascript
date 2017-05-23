@@ -8,17 +8,21 @@
 <script>
 
 
-    var hege = ["hello", "silu","hi", "nilu"];
+    var hege = ["hello", "silu","hi", "nilu","hello", "silu","hi", "nilu"];
     //count=1;
-	//var res=[];
+	var res=new Array();
+	//res.length(2);
+	count=1;
     for(i=0;i<hege.length;i+=2)
     {
     
-    var children = hege[i]+hege[i+1];
-    }
-    alert(children);
+    res[count]=hege[i]+" , "+hege[i+1]+"<br>";
+    
+    document.write(res[count]);
+	count++;
+		
    
-
+}
 </script>
 
 </body>
