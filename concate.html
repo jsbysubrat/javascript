@@ -2,23 +2,23 @@
 <html>
 <body>
 
-<button onclick="myFunction()">Concate</button>
 
-<p id="demo"></p>
+
 
 <script>
-function myFunction() {
+
+
     var hege = ["hello", "silu","hi", "nilu"];
-    count=1;
-	var res=[];
-    for(i=0;i<hege.length;i++)
+    //count=1;
+	//var res=[];
+    for(i=0;i<hege.length;i+=2)
     {
     
-    var children = hege[i].concat(hege[count]);
+    var children = hege[i]+hege[i+1];
     }
-    document.getElementById("demo").innerHTML = children;
-    count++;
-}
+    alert(children);
+   
+
 </script>
 
 </body>
